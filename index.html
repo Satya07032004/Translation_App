@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="appWrapper">
+      <header>
+        <img class="parrot" src="./assets/parrot.png" />
+        <div class="info">
+          <h1>PollyGlot</h1>
+          <p>Perfect Translation Every Time</p>
+        </div>
+      </header>
+      <main>
+        <form>
+          <label for="textTranslation"><h2>Text to translate</h2></label>
+          <textarea
+            id="textTranslation"
+            placeholder="E.g. I love to communicate"
+          ></textarea>
+
+          <h2>Select language</h2>
+          <label for="french"
+            ><input type="radio" id="french" name="lang" value="lang" /><b
+              >French</b
+            ><img src="./assets/fr-flag.png" alt=""
+          /></label>
+          <label for="spanish"
+            ><input type="radio" id="spanish" name="lang" value="lang" /><b
+              >Spanish</b
+            >
+            <img src="./assets/sp-flag.png" alt=""
+          /></label>
+          <label for="japanese"
+            ><input type="radio" id="japanese" name="lang" value="japanese" /><b
+              >Japanese</b
+            ><img src="./assets/jpn-flag.png" alt=""
+          /></label>
+          <button id="translate">Translate</button>
+        </form>
+      </main>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

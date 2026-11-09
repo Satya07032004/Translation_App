@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Big Shoulders", sans-serif;
+}
+
+.appWrapper {
+  max-width: 390px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 213px;
+  background-color: rgba(28, 50, 95, 1);
+  background-image: url(./assets/worldmap.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+h1 {
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 43.42px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: rgba(50, 205, 50, 1);
+}
+
+.info p {
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 12.21px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.parrot {
+  width: 94px;
+  height: 84px;
+}
+
+form h2 {
+  color: rgba(3, 90, 157, 1);
+  margin: 0 auto;
+}
+
+main {
+  width: 362px;
+  height: 505px;
+  border: 4px solid rgba(37, 47, 66, 1);
+  border-radius: 10px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+}
+
+form button {
+  background-color: rgba(3, 90, 157, 1);
+  font-family: "Big Shoulders", sans-serif;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-size: 1em;
+}
+
+form textarea {
+  height: 90px;
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.451);
+  border-radius: 5px;
+  resize: none;
+}
+
+form textarea::placeholder {
+  color: black;
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: bold;
+}
+
+label {
+  margin-left: 1.5rem;
+  display: flex;
+  gap: 10px;
+}
+
+label img {
+  border: 1px solid black;
+  height: 20px;
+}
